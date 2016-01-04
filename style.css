@@ -1,0 +1,144 @@
+/*
+Theme Name: Awful Glasses
+Author: Ivy Zhou
+Author URI: ivy-zhou.github.io
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #8DA7BE;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	line-height: 1.65em;
+	margin: 0 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: normal;
+}
+
+/* General Layout */
+div.container {
+	max-width: 812px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: auto;
+}
+
+/* Content Area */
+article {
+	max-width: 720px;
+	margin: auto;
+}
+
+article.post {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+article h2{
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+.site-header {
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+	padding: 30px 0 0 0;
+}
+
+.site-header h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+
+/* header nav */
+.site-nav {
+    list-style: none;
+    padding: 0;
+    padding-right: 40px;
+}
+
+.site-nav li {
+	text-align: center;
+    display: inline;
+    border-right: 1px solid #DDD;
+}
+
+.site-nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.site-nav a:hover,
+.site-nav .current-menu-item a {
+	color: #C8EAD3;
+}
+
+.site-nav li:last-child {
+	border: none;
+}
+
+/* post styles */
+article h3 {
+	font-size: 1.5em;
+	color: #4C5B61;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.post-info{
+	font-size: 85%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited{
+	color: #999;
+}
+
+/* Footer */
+.site-footer {
+	color: #8DA7BE;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 100px;
+	border-top: 1px solid #DDD;
+	font-size: 85%;
+}
+
+/* images */
+img {
+	max-width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
